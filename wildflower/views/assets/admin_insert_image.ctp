@@ -43,5 +43,5 @@
 -->
 
 <li class="insert_image_sidebar">
-    <a class="cancel" href="Close">Close insert image sidebar</a>
+    <a class="cancel" href="#Close">Close insert image sidebar</a>
 </li>

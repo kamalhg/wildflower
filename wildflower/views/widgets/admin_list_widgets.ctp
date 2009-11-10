@@ -8,3 +8,7 @@
         <?php endforeach; ?>
     </ul>
 </li>
+
+<li class="insert_widget_sidebar">
+    <a class="cancel" href="#Close">Close insert widget sidebar</a>
+</li>

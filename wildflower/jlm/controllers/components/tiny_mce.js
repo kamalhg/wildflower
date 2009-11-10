@@ -185,6 +185,13 @@ $.jlm.addComponent('tinyMce', {
 	            });
 	            return false;
 	        });
+
+			// Bind close
+			$('.cancel').click(function() {
+				$('.insert_widget_sidebar').remove();
+				$('.main_sidebar').show();
+				return false;
+			});
 		});
 	    
 	    return false;

@@ -99,7 +99,7 @@ class AssetsController extends AppController {
 	 */
 	function admin_insert_image() {
 		$this->autoLayout = false;
-		$this->paginate['limit'] = 10;
+		$this->paginate['limit'] = 6;
 		$this->paginate['conditions'] = "{$this->modelClass}.mime LIKE 'image%'";
 		$images = $this->paginate($this->modelClass);
 		$this->set('images', $images);
